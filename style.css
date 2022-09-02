@@ -146,3 +146,72 @@ li > img{
 li:hover{
     color:#000000;
 }
+.menu{
+    display: none;
+}
+@media screen and (max-width: 700px) {
+    .left-img{
+        display: none;
+    }
+    .line{
+        display: none;
+    }
+    nav > li{
+        padding: 10px;
+    }
+    .menu{
+        display: inline;
+        float: right;
+    }
+    .left-section{
+        display: flex;
+        justify-content: space-between;
+        margin: 5px;
+    }
+    .logo{
+        position: static;
+        height: 30px;
+    }
+    .heading{
+        position: relative;
+        right: 80px;
+        top: 20px;
+    }
+    .heading > h1{
+        font-size: 60px;
+    }
+    .heading-para > p{
+        font-size: 15px;
+    }
+    .heading-para{
+        top: -35px;
+        left: 200px;
+    }
+    .design-list > li{
+        font-size: 12px;
+        padding: 15px 0;
+    }
+    .design-list{
+        position: relative;
+        right: 120px;
+        top: 100px;
+    }
+    .package-btn{
+        position: relative;
+        left: 20px;
+        top: 0px;
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+    .middle{
+        position: relative;
+        left: -800px;
+        top: 150px;
+    }
+    .top{
+        margin: 0;
+        position: absolute;
+        right: 0px;
+        top: 5px;
+    }
+}
